@@ -17,6 +17,7 @@ body > .container {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .header > .try {
@@ -29,9 +30,16 @@ body > .container {
 }
 
 .header > .try:hover {
-  background: #a435ef;
+  background: #f43f5e;
 }
 
+.header > h2 {
+  font-size: 20px;
+}
+
+.output > h2 {
+  font-size: 20px;
+}
 /* hero */
 
 .hero {
@@ -49,7 +57,7 @@ body > .container {
 .hero > .sub-heading {
   font-size: 64px;
   padding: 14px 25px;
-  background: #a435ef;
+  background: #f43f5e;
   color: #fff;
   border-radius: 12px;
   margin-top: 30px;
@@ -65,15 +73,15 @@ body > .container {
   gap: 30px;
 }
 
-.result > .output-left {
+.result > .input-box {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
-.result > .output-left > #num-box {
+.result > .input-box > #num-box {
   border: 2px solid #000;
   border-radius: 12px;
-  font-size: 24px;
+  font-size: 36px;
   padding: 12px 12px;
 }
 
@@ -88,9 +96,9 @@ body > .container {
 }
 
 .check:hover {
-  background: #a435ef;
+  background: #f43f5e;
 }
 
 .ri-checkbox-circle-fill {
-  color: #a435ef;
+  color: #facc15;
 }
